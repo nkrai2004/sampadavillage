@@ -1,0 +1,1 @@
+console.log('Sampada Village Landing Page');
