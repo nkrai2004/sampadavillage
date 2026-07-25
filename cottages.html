@@ -9,15 +9,10 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
 <header class="site-header">
   <div class="wrap">
     <a href="index.html" class="brand">
-      <svg class="mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M20 3 L36 15.5 L33 16.5 L20 7 L7 16.5 L4 15.5 Z"></path>
-        <circle cx="20" cy="24" r="5.5"></circle>
-      </svg>
-      Sampada Village
+      <img class="logo-chip" src="images/logo_chip.png" alt="Sampada Village Eco Retreats logo">
     </a>
     <nav class="nav-links" id="navLinks">
       <a href="index.html">Home</a>
@@ -26,24 +21,32 @@
       <a href="experiences.html">Experiences</a>
       <a href="gallery.html">Gallery</a>
       <a href="contact.html" class="nav-cta">Plan Your Stay</a>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="is-active">EN</button>
+        <button type="button" data-lang="hi">हिं</button>
+      </div>
     </nav>
     <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
   </div>
 </header>
-
 <section class="page-hero" style="background-image:url('images/cottage_exterior_fog.jpg');">
   <div class="wrap">
-    <p class="crumb"><a href="index.html">Home</a> / Cottages</p>
-    <h1>The Cottages</h1>
+    <p class="crumb"><a href="index.html" data-i18n="crumb.home">Home</a> / <span data-i18n="cottages.crumb">Cottages</span></p>
+    <h1 data-i18n="cottages.h1">The Cottages</h1>
+      <div class="pillar-row">
+        <span class="pillar"><span class="num">1</span><span data-i18n="pillar.1">Near Brijghat &middot; Garh Ganga</span></span>
+        <span class="pillar"><span class="num">2</span><span data-i18n="pillar.2">Eco Retreat &mdash; Village Life</span></span>
+        <span class="pillar"><span class="num">3</span><span data-i18n="pillar.3">Visit to Experience</span></span>
+      </div>
   </div>
 </section>
 
 <section>
   <div class="wrap">
     <div class="section-head reveal">
-      <p class="eyebrow">Mud &amp; Thatch Huts</p>
-      <h2>Round-roofed rooms, raised by hand</h2>
-      <p>Every cottage shares the same bones — mud-plastered walls, a steep thatch roof, and a porch you'll end up spending more time on than the bed. Interiors are simple and unfussy, dressed in bamboo and hand-block linen.</p>
+      <p class="eyebrow" data-i18n="cottages.eyebrow">Mud &amp; Thatch Huts</p>
+      <h2 data-i18n="cottages.title">Round-roofed rooms, raised by hand</h2>
+      <p data-i18n="cottages.body">Every cottage shares the same bones — mud-plastered walls, a steep thatch roof, and a porch you'll end up spending more time on than the bed. Interiors are simple and unfussy, dressed in bamboo and hand-block linen.</p>
     </div>
 
     <div class="hut-gallery reveal">
@@ -64,16 +67,16 @@
     <div class="feature-row reveal">
       <div class="feature-media">
         <img src="images/cottage_exterior_fog.jpg" alt="Cottage porch furnished with cane sofa and wicker chairs on a misty morning">
-        <span class="frame-tag">The Porch</span>
+        <span class="frame-tag" data-i18n="cottages.f1.tag">The Porch</span>
       </div>
       <div class="feature-text">
-        <p class="eyebrow">Where mornings happen</p>
-        <h3>A porch built for staying put</h3>
-        <p>Bamboo posts hold up a deep thatch overhang, shading a cane sofa and a ring of wicker chairs — the obvious place for the first chai of the day, and the last conversation of the night.</p>
+        <p class="eyebrow" data-i18n="cottages.f1.eyebrow">Where mornings happen</p>
+        <h3 data-i18n="cottages.f1.title">A porch built for staying put</h3>
+        <p data-i18n="cottages.f1.body">Bamboo posts hold up a deep thatch overhang, shading a cane sofa and a ring of wicker chairs — the obvious place for the first chai of the day, and the last conversation of the night.</p>
         <ul class="feature-list">
-          <li>Private, furnished porch per cottage</li>
-          <li>Climbing vines &amp; potted plants at the entrance</li>
-          <li>Stone garden path to every door</li>
+          <li data-i18n="cottages.f1.li1">Private, furnished porch per cottage</li>
+          <li data-i18n="cottages.f1.li2">Climbing vines &amp; potted plants at the entrance</li>
+          <li data-i18n="cottages.f1.li3">Stone garden path to every door</li>
         </ul>
       </div>
     </div>
@@ -81,16 +84,16 @@
     <div class="feature-row reverse reveal">
       <div class="feature-media">
         <img src="images/cottage_interior_bed.jpg" alt="Bamboo bed with glass-topped bamboo side tables inside a cottage room">
-        <span class="frame-tag">The Room</span>
+        <span class="frame-tag" data-i18n="cottages.f2.tag">The Room</span>
       </div>
       <div class="feature-text">
-        <p class="eyebrow">Where you sleep</p>
-        <h3>Simple, comfortable, unmistakably handmade</h3>
-        <p>Bamboo four-poster beds, hand-block quilts, glass-topped bamboo side tables — nothing that couldn't have been made on the property, and mostly things that were.</p>
+        <p class="eyebrow" data-i18n="cottages.f2.eyebrow">Where you sleep</p>
+        <h3 data-i18n="cottages.f2.title">Simple, comfortable, unmistakably handmade</h3>
+        <p data-i18n="cottages.f2.body">Bamboo four-poster beds, hand-block quilts, glass-topped bamboo side tables — nothing that couldn't have been made on the property, and mostly things that were.</p>
         <ul class="feature-list">
-          <li>Bamboo four-poster double bed</li>
-          <li>Attached bathroom with running hot water</li>
-          <li>Power backup &amp; charging points</li>
+          <li data-i18n="cottages.f2.li1">Bamboo four-poster double bed</li>
+          <li data-i18n="cottages.f2.li2">Attached bathroom with running hot water</li>
+          <li data-i18n="cottages.f2.li3">Power backup &amp; charging points</li>
         </ul>
       </div>
     </div>
@@ -100,16 +103,16 @@
 <section>
   <div class="wrap">
     <div class="section-head reveal">
-      <p class="eyebrow">In Every Cottage</p>
-      <h2>What's included</h2>
+      <p class="eyebrow" data-i18n="cottages.amenity.eyebrow">In Every Cottage</p>
+      <h2 data-i18n="cottages.amenity.title">What's included</h2>
     </div>
     <div class="amenity-grid reveal">
-      <div class="amenity"><span class="ic">✦</span><div><h5>Bamboo Four-Poster Bed</h5><p>Dressed in hand-block printed cotton linen.</p></div></div>
-      <div class="amenity"><span class="ic">✦</span><div><h5>Attached Bathroom</h5><p>Running hot water, fitted for year-round comfort.</p></div></div>
-      <div class="amenity"><span class="ic">✦</span><div><h5>Private Porch</h5><p>Cane seating shaded by the thatch overhang.</p></div></div>
-      <div class="amenity"><span class="ic">✦</span><div><h5>Power &amp; Backup</h5><p>Reliable electricity with backup for the essentials.</p></div></div>
-      <div class="amenity"><span class="ic">✦</span><div><h5>Garden &amp; Pond Views</h5><p>Every cottage opens onto lawn, garden or water.</p></div></div>
-      <div class="amenity"><span class="ic">✦</span><div><h5>Home-Style Meals</h5><p>Thalis cooked to order from the on-site kitchen.</p></div></div>
+      <div class="amenity"><span class="ic">&#10022;</span><div><h5 data-i18n="cottages.am1.h">Bamboo Four-Poster Bed</h5><p data-i18n="cottages.am1.p">Dressed in hand-block printed cotton linen.</p></div></div>
+      <div class="amenity"><span class="ic">&#10022;</span><div><h5 data-i18n="cottages.am2.h">Attached Bathroom</h5><p data-i18n="cottages.am2.p">Running hot water, fitted for year-round comfort.</p></div></div>
+      <div class="amenity"><span class="ic">&#10022;</span><div><h5 data-i18n="cottages.am3.h">Private Porch</h5><p data-i18n="cottages.am3.p">Cane seating shaded by the thatch overhang.</p></div></div>
+      <div class="amenity"><span class="ic">&#10022;</span><div><h5 data-i18n="cottages.am4.h">Power &amp; Backup</h5><p data-i18n="cottages.am4.p">Reliable electricity with backup for the essentials.</p></div></div>
+      <div class="amenity"><span class="ic">&#10022;</span><div><h5 data-i18n="cottages.am5.h">Garden &amp; Pond Views</h5><p data-i18n="cottages.am5.p">Every cottage opens onto lawn, garden or water.</p></div></div>
+      <div class="amenity"><span class="ic">&#10022;</span><div><h5 data-i18n="cottages.am6.h">Home-Style Meals</h5><p data-i18n="cottages.am6.p">Thalis cooked to order from the on-site kitchen.</p></div></div>
     </div>
   </div>
 </section>
@@ -117,55 +120,96 @@
 <section class="cta-band">
   <div class="wrap">
     <div>
-      <h2>Cottages are limited — and they go quickly on weekends</h2>
-      <p>Check availability and hold your dates directly with us.</p>
+      <h2 data-i18n="cottages.cta.title">Cottages are limited — and they go quickly on weekends</h2>
+      <p data-i18n="cottages.cta.body">Check availability and hold your dates directly with us.</p>
     </div>
     <div style="display:flex; gap:14px; flex-wrap:wrap;">
-      <a href="contact.html" class="btn btn-dark">Check Availability</a>
-      <a href="tel:+919910356281" class="btn btn-ghost">Call +91 99103 56281</a>
+      <a href="https://wa.me/918745863882?text=Hi%20Sampada%20Village%2C%20I%27d%20like%20to%20know%20more%20about%20booking%20a%20stay." target="_blank" rel="noopener" class="btn btn-dark" data-i18n="cta.whatsapp">Connect on WhatsApp</a>
+      <a href="tel:+918745863882" class="btn btn-ghost"><span data-i18n="cta.call">Call</span>&nbsp;+91 87458 63882</a>
     </div>
   </div>
 </section>
-
 <footer>
   <div class="wrap">
     <div class="footer-grid">
       <div>
         <div class="footer-brand">Sampada Village</div>
-        <p>A mud-and-thatch farm stay of cottages, ponds and gardens, built by hand and lived in slowly.</p>
+        <p data-i18n="footer.tagline">A mud-and-thatch farm stay of cottages, ponds and gardens, built by hand and lived in slowly.</p>
       </div>
       <div>
-        <h4>Explore</h4>
+        <h4 data-i18n="footer.explore">Explore</h4>
         <ul>
-          <li><a href="about.html">Our Story</a></li>
-          <li><a href="cottages.html">Cottages</a></li>
-          <li><a href="experiences.html">Experiences</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html" data-i18n="footer.ourStory">Our Story</a></li>
+          <li><a href="cottages.html" data-i18n="footer.cottages">Cottages</a></li>
+          <li><a href="experiences.html" data-i18n="footer.experiences">Experiences</a></li>
+          <li><a href="gallery.html" data-i18n="footer.gallery">Gallery</a></li>
         </ul>
       </div>
       <div>
-        <h4>Visit</h4>
+        <h4 data-i18n="footer.visit">Visit</h4>
         <ul>
-          <li><a href="contact.html">Plan Your Stay</a></li>
-          <li><a href="tel:+919910356281">+91 99103 56281</a></li>
-          <li><a href="https://wa.me/919910356281" target="_blank" rel="noopener">WhatsApp Us</a></li>
+          <li><a href="contact.html" data-i18n="footer.plan">Plan Your Stay</a></li>
+          <li><a href="tel:+918745863882">+91 87458 63882</a></li>
+          <li><a href="https://wa.me/918745863882?text=Hi%20Sampada%20Village%2C%20I%27d%20like%20to%20know%20more%20about%20booking%20a%20stay." target="_blank" rel="noopener" data-i18n="footer.whatsapp">WhatsApp Us</a></li>
         </ul>
       </div>
       <div>
-        <h4>Sampada Village</h4>
+        <h4 data-i18n="footer.brandHeading">Sampada Village</h4>
         <ul>
           <li><a href="https://sampadavillage.com" target="_blank" rel="noopener">sampadavillage.com</a></li>
-          <li>Open all week · 9am – 9pm</li>
+          <li data-i18n="footer.hours">Open all week · 9am – 9pm</li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Sampada Village. All rights reserved.</span>
-      <span>Handmade with mud, thatch &amp; marigold.</span>
+      <span>© <span id="year"></span> <span data-i18n="footer.rights">Sampada Village. All rights reserved.</span></span>
+      <span data-i18n="footer.handmade">Handmade with mud, thatch &amp; marigold.</span>
     </div>
   </div>
 </footer>
-
+<div class="promo-overlay" id="promoOverlay">
+  <div class="promo-card">
+    <button class="promo-close" id="promoClose" aria-label="Close" data-i18n-aria-hint="popup.close">&times;</button>
+    <div class="promo-media" style="background-image:url('images/poster_hero_cottage.jpg');">
+      <div class="promo-distance">
+        <span class="num">75</span>
+        <span class="lbl" data-i18n="popup.distanceLbl">MIN*</span>
+      </div>
+      <div class="promo-thumbs">
+        <img src="images/poster_bamboo_path.jpg" alt="Bamboo tree-lined path at Sampada Village">
+        <img src="images/poster_couple_dining.jpg" alt="Couple enjoying a home-style thali at Sampada Village">
+        <img src="images/poster_ghat_badge.jpg" alt="Brijghat clock tower near the Ganga">
+      </div>
+    </div>
+    <div class="promo-body">
+      <p class="promo-eyebrow" data-i18n="popup.eyebrow">Only 75 Minutes From the Ganga Ghat</p>
+      <h3>After your Ganga darshan...<br><span class="hi-line" data-i18n="popup.titleHi">find your calm at Sampada Village</span></h3>
+      <p class="tagline" data-i18n="popup.tagline">Nature • Flavour • Peace • Togetherness</p>
+      <div class="pillar-row on-light">
+        <span class="pillar"><span class="num">1</span><span data-i18n="pillar.1">Near Brijghat · Garh Ganga</span></span>
+        <span class="pillar"><span class="num">2</span><span data-i18n="pillar.2">Eco Retreat — Village Life</span></span>
+        <span class="pillar"><span class="num">3</span><span data-i18n="pillar.3">Visit to Experience</span></span>
+      </div>
+      <div class="promo-tags">
+        <span data-i18n="popup.tag1">Natural Surroundings</span>
+        <span data-i18n="popup.tag2">Local Flavours</span>
+        <span data-i18n="popup.tag3">Comfortable Cottages</span>
+        <span data-i18n="popup.tag4">Duck Feeding</span>
+        <span data-i18n="popup.tag5">Couple-Friendly Getaway</span>
+      </div>
+      <div class="promo-actions">
+        <a href="https://wa.me/918745863882?text=Hi%20Sampada%20Village%2C%20I%27d%20like%20to%20know%20more%20about%20booking%20a%20stay." target="_blank" rel="noopener" class="btn btn-primary" data-i18n="cta.whatsapp">Connect on WhatsApp</a>
+        <button type="button" class="btn btn-outline-dark" id="promoDismiss" data-i18n="popup.secondary">Maybe Later</button>
+      </div>
+    </div>
+  </div>
+</div>
+<a class="wa-float" href="https://wa.me/918745863882?text=Hi%20Sampada%20Village%2C%20I%27d%20like%20to%20know%20more%20about%20booking%20a%20stay." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <span class="wa-pulse" aria-hidden="true"></span>
+  <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.03 3C9.05 3 3.4 8.62 3.4 15.56c0 2.45.68 4.75 1.86 6.72L3 29l6.9-2.21a12.7 12.7 0 0 0 6.13 1.56h.01c6.98 0 12.63-5.62 12.63-12.56C28.67 8.85 23.02 3 16.03 3Zm0 22.9h-.01a10.4 10.4 0 0 1-5.31-1.46l-.38-.22-3.98 1.28 1.3-3.83-.25-.4a10.24 10.24 0 0 1-1.6-5.51c0-5.7 4.68-10.34 10.44-10.34 2.8 0 5.42 1.08 7.4 3.04a10.2 10.2 0 0 1 3.06 7.3c0 5.7-4.68 10.14-10.67 10.14Zm5.72-7.6c-.31-.16-1.86-.91-2.15-1.02-.29-.1-.5-.16-.71.16-.21.31-.82 1.02-1 1.23-.19.21-.37.23-.68.08-.31-.16-1.32-.48-2.51-1.53-.93-.82-1.56-1.83-1.74-2.14-.18-.31-.02-.48.14-.63.14-.14.31-.37.47-.55.16-.19.21-.31.31-.52.1-.21.05-.39-.03-.55-.08-.16-.71-1.7-.97-2.33-.26-.62-.52-.53-.71-.54h-.6c-.21 0-.55.08-.84.39-.29.31-1.1 1.08-1.1 2.62 0 1.55 1.13 3.05 1.29 3.26.16.21 2.22 3.39 5.38 4.75.75.32 1.34.52 1.8.66.76.24 1.44.21 1.99.13.61-.09 1.86-.76 2.12-1.5.26-.73.26-1.36.18-1.5-.08-.13-.29-.21-.6-.37Z"/></svg>
+  <span class="wa-label" data-i18n="wa.float">Book Now</span>
+</a>
+<script src="js/i18n.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

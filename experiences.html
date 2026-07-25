@@ -9,15 +9,10 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
 <header class="site-header">
   <div class="wrap">
     <a href="index.html" class="brand">
-      <svg class="mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M20 3 L36 15.5 L33 16.5 L20 7 L7 16.5 L4 15.5 Z"></path>
-        <circle cx="20" cy="24" r="5.5"></circle>
-      </svg>
-      Sampada Village
+      <img class="logo-chip" src="images/logo_chip.png" alt="Sampada Village Eco Retreats logo">
     </a>
     <nav class="nav-links" id="navLinks">
       <a href="index.html">Home</a>
@@ -26,67 +21,75 @@
       <a href="experiences.html" class="active">Experiences</a>
       <a href="gallery.html">Gallery</a>
       <a href="contact.html" class="nav-cta">Plan Your Stay</a>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="is-active">EN</button>
+        <button type="button" data-lang="hi">हिं</button>
+      </div>
     </nav>
     <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
   </div>
 </header>
-
 <section class="page-hero" style="background-image:url('images/pavilion_deck.jpg');">
   <div class="wrap">
-    <p class="crumb"><a href="index.html">Home</a> / Experiences</p>
-    <h1>Experiences</h1>
+    <p class="crumb"><a href="index.html" data-i18n="crumb.home">Home</a> / <span data-i18n="experiences.crumb">Experiences</span></p>
+    <h1 data-i18n="experiences.h1">Experiences</h1>
+      <div class="pillar-row">
+        <span class="pillar"><span class="num">1</span><span data-i18n="pillar.1">Near Brijghat &middot; Garh Ganga</span></span>
+        <span class="pillar"><span class="num">2</span><span data-i18n="pillar.2">Eco Retreat &mdash; Village Life</span></span>
+        <span class="pillar"><span class="num">3</span><span data-i18n="pillar.3">Visit to Experience</span></span>
+      </div>
   </div>
 </section>
 
 <section>
   <div class="wrap">
     <div class="section-head reveal">
-      <p class="eyebrow">Around the Property</p>
-      <h2>Ways to spend your hours here</h2>
-      <p>Nothing here is scheduled too tightly — most days sort themselves out between the pond, the garden, and whatever's cooking.</p>
+      <p class="eyebrow" data-i18n="experiences.eyebrow">Around the Property</p>
+      <h2 data-i18n="experiences.title">Ways to spend your hours here</h2>
+      <p data-i18n="experiences.body">Nothing here is scheduled too tightly — most days sort themselves out between the pond, the garden, and whatever's cooking.</p>
     </div>
 
     <div class="card-grid reveal">
       <div class="exp-card">
         <img src="images/pond_garden_day.jpg" alt="Garden path beside the fish pond lined with marigold flowers">
         <div class="body">
-          <h4>Pond &amp; Garden Walks</h4>
-          <p>Wander the stone paths between marigold beds and vegetable rows, down to the pond where the resident swans keep watch over the evening.</p>
+          <h4 data-i18n="experiences.c1.h">Pond &amp; Garden Walks</h4>
+          <p data-i18n="experiences.c1.p">Wander the stone paths between marigold beds and vegetable rows, down to the pond where the resident swans keep watch over the evening.</p>
         </div>
       </div>
       <div class="exp-card">
         <img src="images/night_path.jpg" alt="Lantern-lit garden path at Sampada Village after dark">
         <div class="body">
-          <h4>Lantern-Lit Evenings</h4>
-          <p>As the light fades, the paths are lit lantern by lantern — a good excuse for a slow walk before dinner.</p>
+          <h4 data-i18n="experiences.c2.h">Lantern-Lit Evenings</h4>
+          <p data-i18n="experiences.c2.p">As the light fades, the paths are lit lantern by lantern — a good excuse for a slow walk before dinner.</p>
         </div>
       </div>
       <div class="exp-card">
         <img src="images/sunset_family.jpg" alt="Family watching the sunset over the fields near Sampada Village">
         <div class="body">
-          <h4>Sunset Over the Fields</h4>
-          <p>Step past the boundary and the mustard fields open right up — bring the whole family out for golden hour.</p>
+          <h4 data-i18n="experiences.c3.h">Sunset Over the Fields</h4>
+          <p data-i18n="experiences.c3.p">Step past the boundary and the mustard fields open right up — bring the whole family out for golden hour.</p>
         </div>
       </div>
       <div class="exp-card">
         <img src="images/pavilion_deck.jpg" alt="Colourful open-air pavilion used for bonfires and gatherings">
         <div class="body">
-          <h4>Bonfire &amp; Deck Evenings</h4>
-          <p>The painted pavilion at the centre of the property comes alive after dark — chairs pulled in, a fire lit, stories that run long.</p>
+          <h4 data-i18n="experiences.c4.h">Bonfire &amp; Deck Evenings</h4>
+          <p data-i18n="experiences.c4.p">The painted pavilion at the centre of the property comes alive after dark — chairs pulled in, a fire lit, stories that run long.</p>
         </div>
       </div>
       <div class="exp-card">
-        <img src="images/food_thali.jpg" alt="Home-style vegetarian thali with dal, saag, curry and roti">
+        <img src="images/poster_couple_dining.jpg" alt="Couple enjoying a home-style thali at Sampada Village">
         <div class="body">
-          <h4>Farm-to-Plate Meals</h4>
-          <p>Thalis built around whatever the garden has that day, cooked to order and served hot on the communal deck.</p>
+          <h4 data-i18n="experiences.c5.h">Farm-to-Plate Meals</h4>
+          <p data-i18n="experiences.c5.p">Thalis built around whatever the garden has that day, cooked to order and served hot on the communal deck.</p>
         </div>
       </div>
       <div class="exp-card">
         <img src="images/cottage_pond_swans.jpg" alt="Cottage porch overlooking the pond at Sampada Village">
         <div class="body">
-          <h4>Slow Mornings</h4>
-          <p>No alarms required — chai on the porch, mist over the pond, and a day that starts whenever you're ready.</p>
+          <h4 data-i18n="experiences.c6.h">Slow Mornings</h4>
+          <p data-i18n="experiences.c6.p">No alarms required — chai on the porch, mist over the pond, and a day that starts whenever you're ready.</p>
         </div>
       </div>
     </div>
@@ -101,16 +104,16 @@
 <section class="on-dark">
   <div class="wrap">
     <div class="section-head on-dark reveal">
-      <p class="eyebrow">Celebrations</p>
-      <h2>Festivals &amp; get-togethers on the deck</h2>
-      <p>The pavilion at Sampada regularly turns into a party ground — long tables, string lights, and the same thatch roof overhead, whatever the occasion.</p>
+      <p class="eyebrow" data-i18n="experiences.dark.eyebrow">Celebrations</p>
+      <h2 data-i18n="experiences.dark.title">Festivals &amp; get-togethers on the deck</h2>
+      <p data-i18n="experiences.dark.body">The pavilion at Sampada regularly turns into a party ground — long tables, string lights, and the same thatch roof overhead, whatever the occasion.</p>
     </div>
     <div class="tag-row reveal">
-      <span class="tag-chip">Diwali Evenings</span>
-      <span class="tag-chip">Holi Colour Mornings</span>
-      <span class="tag-chip">Birthdays &amp; Anniversaries</span>
-      <span class="tag-chip">Family Day Outings</span>
-      <span class="tag-chip">Corporate Off-Sites</span>
+      <span class="tag-chip" data-i18n="experiences.tag1">Diwali Evenings</span>
+      <span class="tag-chip" data-i18n="experiences.tag2">Holi Colour Mornings</span>
+      <span class="tag-chip" data-i18n="experiences.tag3">Birthdays &amp; Anniversaries</span>
+      <span class="tag-chip" data-i18n="experiences.tag4">Family Day Outings</span>
+      <span class="tag-chip" data-i18n="experiences.tag5">Corporate Off-Sites</span>
     </div>
   </div>
 </section>
@@ -118,55 +121,96 @@
 <section class="cta-band">
   <div class="wrap">
     <div>
-      <h2>Planning a celebration or a quiet weekend?</h2>
-      <p>Tell us the occasion and we'll help you plan the day.</p>
+      <h2 data-i18n="experiences.cta.title">Planning a celebration or a quiet weekend?</h2>
+      <p data-i18n="experiences.cta.body">Tell us the occasion and we'll help you plan the day.</p>
     </div>
     <div style="display:flex; gap:14px; flex-wrap:wrap;">
-      <a href="contact.html" class="btn btn-dark">Get in Touch</a>
-      <a href="gallery.html" class="btn btn-ghost">See the Gallery</a>
+      <a href="https://wa.me/918745863882?text=Hi%20Sampada%20Village%2C%20I%27d%20like%20to%20know%20more%20about%20booking%20a%20stay." target="_blank" rel="noopener" class="btn btn-dark" data-i18n="cta.whatsapp">Connect on WhatsApp</a>
+      <a href="gallery.html" class="btn btn-ghost" data-i18n="experiences.btn.gallery">See the Gallery</a>
     </div>
   </div>
 </section>
-
 <footer>
   <div class="wrap">
     <div class="footer-grid">
       <div>
         <div class="footer-brand">Sampada Village</div>
-        <p>A mud-and-thatch farm stay of cottages, ponds and gardens, built by hand and lived in slowly.</p>
+        <p data-i18n="footer.tagline">A mud-and-thatch farm stay of cottages, ponds and gardens, built by hand and lived in slowly.</p>
       </div>
       <div>
-        <h4>Explore</h4>
+        <h4 data-i18n="footer.explore">Explore</h4>
         <ul>
-          <li><a href="about.html">Our Story</a></li>
-          <li><a href="cottages.html">Cottages</a></li>
-          <li><a href="experiences.html">Experiences</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html" data-i18n="footer.ourStory">Our Story</a></li>
+          <li><a href="cottages.html" data-i18n="footer.cottages">Cottages</a></li>
+          <li><a href="experiences.html" data-i18n="footer.experiences">Experiences</a></li>
+          <li><a href="gallery.html" data-i18n="footer.gallery">Gallery</a></li>
         </ul>
       </div>
       <div>
-        <h4>Visit</h4>
+        <h4 data-i18n="footer.visit">Visit</h4>
         <ul>
-          <li><a href="contact.html">Plan Your Stay</a></li>
-          <li><a href="tel:+919910356281">+91 99103 56281</a></li>
-          <li><a href="https://wa.me/919910356281" target="_blank" rel="noopener">WhatsApp Us</a></li>
+          <li><a href="contact.html" data-i18n="footer.plan">Plan Your Stay</a></li>
+          <li><a href="tel:+918745863882">+91 87458 63882</a></li>
+          <li><a href="https://wa.me/918745863882?text=Hi%20Sampada%20Village%2C%20I%27d%20like%20to%20know%20more%20about%20booking%20a%20stay." target="_blank" rel="noopener" data-i18n="footer.whatsapp">WhatsApp Us</a></li>
         </ul>
       </div>
       <div>
-        <h4>Sampada Village</h4>
+        <h4 data-i18n="footer.brandHeading">Sampada Village</h4>
         <ul>
           <li><a href="https://sampadavillage.com" target="_blank" rel="noopener">sampadavillage.com</a></li>
-          <li>Open all week · 9am – 9pm</li>
+          <li data-i18n="footer.hours">Open all week · 9am – 9pm</li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Sampada Village. All rights reserved.</span>
-      <span>Handmade with mud, thatch &amp; marigold.</span>
+      <span>© <span id="year"></span> <span data-i18n="footer.rights">Sampada Village. All rights reserved.</span></span>
+      <span data-i18n="footer.handmade">Handmade with mud, thatch &amp; marigold.</span>
     </div>
   </div>
 </footer>
-
+<div class="promo-overlay" id="promoOverlay">
+  <div class="promo-card">
+    <button class="promo-close" id="promoClose" aria-label="Close" data-i18n-aria-hint="popup.close">&times;</button>
+    <div class="promo-media" style="background-image:url('images/poster_hero_cottage.jpg');">
+      <div class="promo-distance">
+        <span class="num">75</span>
+        <span class="lbl" data-i18n="popup.distanceLbl">MIN*</span>
+      </div>
+      <div class="promo-thumbs">
+        <img src="images/poster_bamboo_path.jpg" alt="Bamboo tree-lined path at Sampada Village">
+        <img src="images/poster_couple_dining.jpg" alt="Couple enjoying a home-style thali at Sampada Village">
+        <img src="images/poster_ghat_badge.jpg" alt="Brijghat clock tower near the Ganga">
+      </div>
+    </div>
+    <div class="promo-body">
+      <p class="promo-eyebrow" data-i18n="popup.eyebrow">Only 75 Minutes From the Ganga Ghat</p>
+      <h3>After your Ganga darshan...<br><span class="hi-line" data-i18n="popup.titleHi">find your calm at Sampada Village</span></h3>
+      <p class="tagline" data-i18n="popup.tagline">Nature • Flavour • Peace • Togetherness</p>
+      <div class="pillar-row on-light">
+        <span class="pillar"><span class="num">1</span><span data-i18n="pillar.1">Near Brijghat · Garh Ganga</span></span>
+        <span class="pillar"><span class="num">2</span><span data-i18n="pillar.2">Eco Retreat — Village Life</span></span>
+        <span class="pillar"><span class="num">3</span><span data-i18n="pillar.3">Visit to Experience</span></span>
+      </div>
+      <div class="promo-tags">
+        <span data-i18n="popup.tag1">Natural Surroundings</span>
+        <span data-i18n="popup.tag2">Local Flavours</span>
+        <span data-i18n="popup.tag3">Comfortable Cottages</span>
+        <span data-i18n="popup.tag4">Duck Feeding</span>
+        <span data-i18n="popup.tag5">Couple-Friendly Getaway</span>
+      </div>
+      <div class="promo-actions">
+        <a href="https://wa.me/918745863882?text=Hi%20Sampada%20Village%2C%20I%27d%20like%20to%20know%20more%20about%20booking%20a%20stay." target="_blank" rel="noopener" class="btn btn-primary" data-i18n="cta.whatsapp">Connect on WhatsApp</a>
+        <button type="button" class="btn btn-outline-dark" id="promoDismiss" data-i18n="popup.secondary">Maybe Later</button>
+      </div>
+    </div>
+  </div>
+</div>
+<a class="wa-float" href="https://wa.me/918745863882?text=Hi%20Sampada%20Village%2C%20I%27d%20like%20to%20know%20more%20about%20booking%20a%20stay." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <span class="wa-pulse" aria-hidden="true"></span>
+  <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.03 3C9.05 3 3.4 8.62 3.4 15.56c0 2.45.68 4.75 1.86 6.72L3 29l6.9-2.21a12.7 12.7 0 0 0 6.13 1.56h.01c6.98 0 12.63-5.62 12.63-12.56C28.67 8.85 23.02 3 16.03 3Zm0 22.9h-.01a10.4 10.4 0 0 1-5.31-1.46l-.38-.22-3.98 1.28 1.3-3.83-.25-.4a10.24 10.24 0 0 1-1.6-5.51c0-5.7 4.68-10.34 10.44-10.34 2.8 0 5.42 1.08 7.4 3.04a10.2 10.2 0 0 1 3.06 7.3c0 5.7-4.68 10.14-10.67 10.14Zm5.72-7.6c-.31-.16-1.86-.91-2.15-1.02-.29-.1-.5-.16-.71.16-.21.31-.82 1.02-1 1.23-.19.21-.37.23-.68.08-.31-.16-1.32-.48-2.51-1.53-.93-.82-1.56-1.83-1.74-2.14-.18-.31-.02-.48.14-.63.14-.14.31-.37.47-.55.16-.19.21-.31.31-.52.1-.21.05-.39-.03-.55-.08-.16-.71-1.7-.97-2.33-.26-.62-.52-.53-.71-.54h-.6c-.21 0-.55.08-.84.39-.29.31-1.1 1.08-1.1 2.62 0 1.55 1.13 3.05 1.29 3.26.16.21 2.22 3.39 5.38 4.75.75.32 1.34.52 1.8.66.76.24 1.44.21 1.99.13.61-.09 1.86-.76 2.12-1.5.26-.73.26-1.36.18-1.5-.08-.13-.29-.21-.6-.37Z"/></svg>
+  <span class="wa-label" data-i18n="wa.float">Book Now</span>
+</a>
+<script src="js/i18n.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
